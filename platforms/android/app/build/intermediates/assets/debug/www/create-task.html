@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Создание задачи</title>
+  <link rel="stylesheet" href="styles-task.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="back-link"><span>←</span></a>
+    <h1>Создание задачи</h1>
+  </header>
+  <main>
+    <form id="taskForm">
+      <div class="form-group">
+        <label for="nameInput">Наименование</label>
+        <input type="text" id="nameInput" required>
+      </div>
+      <div class="form-group">
+        <label for="dateTimeInput">Дата и время</label>
+        <input type="date" id="dateTimeInput" required>
+      </div>
+      <div class="form-group">
+        <label for="notesInput">Примечание</label>
+        <textarea id="notesInput" rows="4"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="importanceSelect">Степень важности</label>
+        <select id="importanceSelect" required>
+          <option value="" disabled selected>Выберите степень важности</option>
+          <option value="low">Низкая</option>
+          <option value="medium">Средняя</option>
+          <option value="high">Высокая</option>
+        </select>
+      </div>
+      <button type="submit" class="save-button" id="boobs">Сохранить</button>
+    </form>
+    <a class="add-button" id="delete-button_"><span>-</span></a>
+    <ul class="task-list" id="task-data">
+    </ul>
+  </main>
+  <script src="cordova.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

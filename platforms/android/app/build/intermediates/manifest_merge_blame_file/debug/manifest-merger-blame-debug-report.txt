@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.volgatech.fivt.MyName"
+4    android:hardwareAccelerated="true"
+5    android:versionCode="10000"
+6    android:versionName="1.0.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="33" />
+10-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+13        android:anyDensity="true"
+13-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+14        android:largeScreens="true"
+14-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+15        android:normalScreens="true"
+15-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+16        android:resizeable="true"
+16-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+17        android:smallScreens="true"
+17-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+18        android:xlargeScreens="true" />
+18-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+20-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+21
+22    <permission
+22-->[androidx.core:core:1.9.0] C:\Users\sulpie\.gradle\caches\transforms-3\3214beafd0ed5b527f5ebf9b31cb14f3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+23        android:name="net.volgatech.fivt.MyName.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.9.0] C:\Users\sulpie\.gradle\caches\transforms-3\3214beafd0ed5b527f5ebf9b31cb14f3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.9.0] C:\Users\sulpie\.gradle\caches\transforms-3\3214beafd0ed5b527f5ebf9b31cb14f3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="net.volgatech.fivt.MyName.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.9.0] C:\Users\sulpie\.gradle\caches\transforms-3\3214beafd0ed5b527f5ebf9b31cb14f3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.9.0] C:\Users\sulpie\.gradle\caches\transforms-3\3214beafd0ed5b527f5ebf9b31cb14f3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:5:5-12:19
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.9.0] C:\Users\sulpie\.gradle\caches\transforms-3\3214beafd0ed5b527f5ebf9b31cb14f3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:hardwareAccelerated="true"
+32-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:5:53-87
+34        android:label="@string/app_name"
+34-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:5:88-120
+35        android:supportsRtl="true" >
+35-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:5:121-147
+36        <activity
+36-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
+37            android:name="net.volgatech.fivt.MyName.MainActivity"
+37-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:6:229-256
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode"
+38-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:6:19-135
+39            android:exported="true"
+39-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:6:136-159
+40            android:label="@string/activity_name"
+40-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:6:160-197
+41            android:launchMode="singleTop"
+41-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:6:198-228
+42            android:theme="@style/Theme.App.SplashScreen"
+42-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:6:257-302
+43            android:windowSoftInputMode="adjustResize" >
+43-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:6:303-345
+44            <intent-filter android:label="@string/launcher_name" >
+44-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+44-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+45-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+47-->C:\zaebalo41\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sulpie\.gradle\caches\transforms-3\9875beaff5736d884a7760d22b1ee925\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sulpie\.gradle\caches\transforms-3\9875beaff5736d884a7760d22b1ee925\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+53            android:authorities="net.volgatech.fivt.MyName.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sulpie\.gradle\caches\transforms-3\9875beaff5736d884a7760d22b1ee925\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sulpie\.gradle\caches\transforms-3\9875beaff5736d884a7760d22b1ee925\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sulpie\.gradle\caches\transforms-3\9875beaff5736d884a7760d22b1ee925\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sulpie\.gradle\caches\transforms-3\9875beaff5736d884a7760d22b1ee925\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sulpie\.gradle\caches\transforms-3\9875beaff5736d884a7760d22b1ee925\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\sulpie\.gradle\caches\transforms-3\7686ae2f550c931d0dd602d930fef3df\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\sulpie\.gradle\caches\transforms-3\7686ae2f550c931d0dd602d930fef3df\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\sulpie\.gradle\caches\transforms-3\7686ae2f550c931d0dd602d930fef3df\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>

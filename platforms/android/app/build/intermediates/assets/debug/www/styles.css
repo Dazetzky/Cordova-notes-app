@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+under {
+  background: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="text"] {
+  font-size: 16px;
+  padding: 8px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="date"] {
+  font-size: 16px;
+  padding: 8px;
+  width: 35%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-button {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 13px;
+  border-radius: 70%;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+
+main {
+  padding: 20px;
+}
+
+.taskLow {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  position: relative; /* Добавлено для позиционирования полоски */
+}
+
+.taskMiddle {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  position: relative; /* Добавлено для позиционирования полоски */
+}
+
+.taskHigh {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  position: relative; /* Добавлено для позиционирования полоски */
+}
+
+.taskLow::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: green;
+}
+
+.taskMiddle::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: yellow;
+}
+
+.taskHigh::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: red;
+}
+
+.taskLow:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.taskMiddle:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.taskHigh:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.task-list {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 3px;
+}
+
+@media (max-width: 768px) {
+  input[type="text"] {
+    width: 50%;
+  }
+}
+
+*::-webkit-scrollbar,
+*::-webkit-scrollbar-thumb {
+  width: 26px;
+  border-radius: 13px;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+  color: #b6e2af;
+}
+
+*::-webkit-scrollbar-thumb {        
+  box-shadow: inset 0 0 0 10px;
+}
+
+main ul {
+  height: 76vh;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+a, u {
+  text-decoration: none;
+}

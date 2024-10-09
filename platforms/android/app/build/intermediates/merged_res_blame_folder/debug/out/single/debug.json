@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-xhdpi-v26_ic_launcher_monochrome.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-xhdpi-v26/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-ldpi-v26_ic_launcher_foreground.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-ldpi-v26/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/xml_config.xml.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/xml/config.xml"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-mdpi-v26_ic_launcher_monochrome.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-mdpi-v26/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-ldpi-v26_ic_launcher_background.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-ldpi-v26/ic_launcher_background.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/drawable_ic_cdv_splashscreen.xml.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/drawable/ic_cdv_splashscreen.xml"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-xxxhdpi-v26_ic_launcher_background.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-xxxhdpi-v26/ic_launcher_background.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-xxxhdpi-v26_ic_launcher_monochrome.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-xxxhdpi-v26/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-hdpi-v26_ic_launcher_background.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-hdpi-v26/ic_launcher_background.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-hdpi-v26_ic_launcher_foreground.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-hdpi-v26/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-xhdpi-v26_ic_launcher.xml.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-xhdpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-ldpi_ic_launcher.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-xhdpi-v26_ic_launcher_foreground.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-xhdpi-v26/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-ldpi-v26_ic_launcher.xml.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-ldpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-hdpi-v26_ic_launcher.xml.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-hdpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-xhdpi-v26_ic_launcher_background.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-xhdpi-v26/ic_launcher_background.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-xxxhdpi-v26_ic_launcher_foreground.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-xxxhdpi-v26/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-hdpi-v26_ic_launcher_monochrome.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-hdpi-v26/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-mdpi-v26_ic_launcher_foreground.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-mdpi-v26/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-mdpi-v26_ic_launcher.xml.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-mdpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-mdpi-v26_ic_launcher_background.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-mdpi-v26/ic_launcher_background.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-xxhdpi-v26_ic_launcher.xml.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-xxhdpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-xxhdpi-v26_ic_launcher_background.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-xxhdpi-v26/ic_launcher_background.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-xxhdpi-v26_ic_launcher_monochrome.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-xxhdpi-v26/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-xxxhdpi-v26_ic_launcher.xml.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-xxxhdpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "net.volgatech.fivt.MyName.app-merged_res-24:/mipmap-xxhdpi-v26_ic_launcher_foreground.png.flat",
+        "source": "net.volgatech.fivt.MyName.app-main-26:/mipmap-xxhdpi-v26/ic_launcher_foreground.png"
+    }
+]

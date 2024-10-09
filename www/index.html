@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ежедневник</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <input type="text" placeholder="Поиск..." id="search" value="" oninput="onChangeSearcher();"/>
+    <input type="date" class="datePicker" id="datepicker" value="" oninput="OnChangeDate();"/>
+  </header>
+  <main>
+    <ul class="task-list" id="task-data">
+    </ul>
+    <!-- другие записи -->
+  </main>
+  <under>
+    <input type="hidden">
+    <a href="create-task.html" class="add-button"><span>+</span></a>
+    <a class="add-button" id="delete-button_"><span>-</span></a>
+  </under>
+</body>
+<script src="cordova.js"></script>
+<script src="app.js"></script>
+</html>
